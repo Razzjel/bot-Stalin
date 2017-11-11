@@ -7,7 +7,7 @@ client.on('ready', () => {
 
 client.on('message', message => {
     if (message.content === 'Relchak to') {
-    	message.reply('szmata');
+    	message('szmata');
   	}
 });
 
